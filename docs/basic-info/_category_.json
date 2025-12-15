@@ -1,0 +1,8 @@
+{
+  "label": "Basic Info",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The information about Statemachine Server"
+  }
+}
