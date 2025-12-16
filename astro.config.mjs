@@ -7,8 +7,8 @@ export default defineConfig({
 
 	// Deployment configs
 	site: 'https://statemachinewiki.github.io',
-	base: '/statemachinewiki.github.io',
-	
+	base: '/statemachinewiki',
+
 
 	integrations: [
 		starlight({
