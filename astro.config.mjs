@@ -6,6 +6,7 @@ import starlight from '@astrojs/starlight';
 import starlightThemeGalaxy from 'starlight-theme-galaxy';
 import starlightFullViewMode from 'starlight-fullview-mode';
 import starlightScrollToTop from 'starlight-scroll-to-top';
+import starlightHeadingBadges from 'starlight-heading-badges'
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +18,7 @@ export default defineConfig({
 
 	integrations: [
 		starlight({
-			title: 'State Machine',
+			title: 'StateMachine',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Thecoldgod04' }],
 			
 			sidebar: [
@@ -50,6 +51,7 @@ export default defineConfig({
 				}),
 				starlightScrollToTop({
 				}),
+				starlightHeadingBadges(),
 			],
 		}),
 	],

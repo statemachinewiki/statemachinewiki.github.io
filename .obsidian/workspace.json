@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df42b07d3c26d148",
+        "id": "6e8ef22e5d476aa4",
         "type": "tabs",
         "children": [
           {
-            "id": "193dddadbc19cc6e",
+            "id": "fb615858004a941c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/docs/timeline/serverTimeline.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "serverTimeline"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/timeline/serverTimeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for serverTimeline"
+              "title": "Backlinks"
             }
           },
           {
@@ -182,29 +177,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "193dddadbc19cc6e",
+  "active": "fb615858004a941c",
   "lastOpenFiles": [
-    "src/components/PageTitle.astro",
-    "src/components/PageHeader.astro",
-    "node_modules/readdirp/index.d.ts",
-    "node_modules/unstorage/drivers/vercel-kv.d.cts",
-    "node_modules/unstorage/drivers/vercel-blob.d.cts",
-    "node_modules/unstorage/drivers/upstash.d.cts",
-    "node_modules/unstorage/drivers/uploadthing.d.cts",
-    "node_modules/unstorage/drivers/session-storage.d.cts",
-    "node_modules/unstorage/drivers/planetscale.d.cts",
-    "node_modules/unstorage/drivers/lru-cache.d.cts",
-    "src/components/starlight/PageHeader.astro",
-    "public/books_head.svg",
+    "public/head_icons/steve_plushie_head.png",
+    "public/head_icons/globe_head.png",
+    "public/head_icons/books_head.svg",
+    "public/head_icons",
+    "public/globe_head.png",
     "public/avatarHead.png",
-    "public/62e5ef8ff0517a82b5e965d549ecad0b07b7c474ad905f8879f15dbfc23454aa.png",
-    "public/e71a2285c91c6c72747604819ee5223a90aa51e6e79e4f9af6628ec8f0dd7dfc.png",
-    "src/content/docs/info/rules.md",
-    "src/content/docs/info/members.md",
-    "src/content/docs/intro/members.md",
-    "src/assets/2023-08-08_13.29.27.png",
+    "public/avatarHead.png.crdownload",
+    "src/assets/info/members/alex_player_model.png",
+    "src/assets/info/members/avatarBody3.png.crdownload",
     "src/content/docs/timeline/serverTimeline.md",
-    "src/assets/2023-08-08_13.29.27 1.png",
+    "src/content/docs/timeline/serverTimeline.mdx",
+    "src/content/docs/info/rules.mdx",
+    "src/content/docs/info/members.mdx",
+    "src/content/docs/info/members.md",
+    "src/assets/info/members/thecoldgod_player_model.png",
+    "node_modules/starlight-heading-badges/LICENSE",
+    "node_modules/starlight-heading-badges/index.ts",
+    "node_modules/starlight-heading-badges/libs/starlight-toc.ts",
+    "node_modules/starlight-heading-badges/libs/remark.ts",
+    "node_modules/starlight-heading-badges/README.md",
+    "node_modules/starlight-heading-badges/CHANGELOG.md",
+    "src/assets/info/members/kieanu_player_model.png",
+    "src/assets/info/members/steve_player_model.png",
+    "src/content/docs/info/rules.md",
+    "src/assets/timeline/2023-08-08_13.29.27.png",
+    "src/assets/2023-08-08_13.29.27.png",
+    "src/content/docs/intro/members.md",
     "src/content/docs/rules/rules.md",
     "src/content/docs/rules.md",
     "node_modules/starlight-sidebar-topics/README.md",
@@ -214,8 +215,6 @@
     "node_modules/@iconify/types/README.md",
     "README.md",
     "src/content/docs/rules/example.md",
-    "public/logo_trans.svg",
-    "public/ice-cube.png",
     "node_modules/@fontsource-variable/jetbrains-mono/README.md",
     "node_modules/starlight-theme-galaxy/README.md",
     "node_modules/starlight-theme-galaxy/CHANGELOG.md",
@@ -225,8 +224,6 @@
     "node_modules/typescript/README.md",
     "node_modules/@pagefind/windows-x64/README.md",
     "node_modules/zod-to-json-schema/README.md",
-    "node_modules/zod-to-json-schema/dist-test-v4/types/node_modules/zod/README.md",
-    "node_modules/zod-to-json-schema/dist-test-v4/esm/node_modules/zod/README.md",
-    "node_modules/zod-to-json-schema/dist-test-v4/cjs/node_modules/zod/README.md"
+    "node_modules/zod-to-json-schema/dist-test-v4/types/node_modules/zod/README.md"
   ]
 }
