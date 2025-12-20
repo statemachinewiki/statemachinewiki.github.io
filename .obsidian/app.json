@@ -1,1 +1,7 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "src/content/docs",
+  "attachmentFolderPath": "src/assets",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
+}

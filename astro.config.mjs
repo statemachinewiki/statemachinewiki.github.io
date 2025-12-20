@@ -2,6 +2,11 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+// Plugins
+import starlightThemeGalaxy from 'starlight-theme-galaxy';
+import starlightFullViewMode from 'starlight-fullview-mode';
+import starlightScrollToTop from 'starlight-scroll-to-top';
+
 // https://astro.build/config
 export default defineConfig({
 
@@ -12,20 +17,34 @@ export default defineConfig({
 
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'State Machine',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Thecoldgod04' }],
+			
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Basic Info',
+					autogenerate: { directory: 'info' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Timeline & Changes',
+					autogenerate: { directory: 'timeline' },
 				},
+			],
+
+			customCss: [
+				'./src/styles/custom.css',
+			],
+
+			favicon: './favicon.ico',
+
+			// Add plugins here
+			plugins: [
+				starlightThemeGalaxy(),
+				starlightFullViewMode({
+					leftSidebarCollapsedWidth: '60px',
+				}),
+				starlightScrollToTop({
+				}),
 			],
 		}),
 	],
